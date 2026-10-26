@@ -1,0 +1,56 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/**
+!**/[Pp]ackages/*.nupkg
+**/[Pp]ackages.lock.json
+nuget.config.user
+
+# IDE
+.idea/
+*.csproj.user
+
+# dotnet tool
+tools/
+
+# Test output
+**/TestResults/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# dotnet SDK
+global.json
+
+# Package reference override
+Directory.Packages.props.user
+
+# macOS
+.DS_Store
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
